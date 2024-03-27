@@ -9,6 +9,8 @@ position: relative;
   margin: 0;
   padding: 0;
   height: 100%;
+  font-family: "Roboto";
+  font-weight: 400;
 }
 
 .container {
@@ -97,6 +99,7 @@ position: relative;
   align-items: center;
   justify-content: center;
   color: #FFFFFF;
+  font-size: 53px;
 }
 
 .block1__item-one {
