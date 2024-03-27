@@ -51,11 +51,12 @@ position: relative;
 /* pop-up */
 
 .popUp {
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 400px;
   height: 400px;
   background: #FFFFFF;
-  border: 1px solid black;
   position: absolute;
   left: 15px;
   top: -415px;
@@ -74,6 +75,10 @@ position: relative;
   background: #7FAFF6;
   border-radius: 5px;
   cursor: pointer;
+}
+
+.popUp-text {
+  font-size: 53px;
 }
 
 
